@@ -1,0 +1,21 @@
+{
+  "name": "acs-color-theme-support",
+  "displayName": "acs color theme support",
+  "description": "allows the user to use the color themes for .acs file types",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "acs themes",
+        "uiTheme": "vs-dark",
+        "path": "./themes/acs themes-color-theme.json"
+      }
+    ]
+  }
+}
